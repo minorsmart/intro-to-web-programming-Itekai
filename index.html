@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Agrowizard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Menu sluiten</a>
+  <a href="#hetprojectteam" onclick="w3_close()" class="w3-bar-item w3-button">Het projectteam</a>
+  <a href="#Project" onclick="w3_close()" class="w3-bar-item w3-button">Project</a>
+  <a href="HTML/RemcoHelsemans.html" onclick="w3_close()" class="w3-bar-item w3-button">Remco Helsemans</a>
+  <a href="HTML/BramDonckers.html" onclick="w3_close()" class="w3-bar-item w3-button">Bram Donckers</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Jord van Moorselen</a>
+  <a href="HTML/OlivierVanDerslot.html" onclick="w3_close()" class="w3-bar-item w3-button">Olivier van der Slot</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">Het project</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!--Photo Grid-->
+  <div id="hetprojectteam" class="w3-center w3-padding-16"> <h1>Het Team </h1></div>
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+		<a href="HTML/RemcoHelsemans.html" id="RemcoHelsemans" onclick="document.location= '/HTML/' + this.id+'.html';return false;" >
+		<img src="/images/Profielfotos/Remco Helsemans (2).jpg" alt="Remco" style="width:125%">
+		</a>
+      <h3>Remco Helsemans</h3>
+      <p>Student HAN Business Informatica Management.</p>
+    </div>
+    <div class="w3-quarter">      
+      <a href="/HTML/BramDonckers.html" id="BramDonckers" onclick="document.location = '/HTML/' + this.id + '.html'; return false;">
+      <img src="/images/Profielfotos/BramDonckers.JPG" alt="Bram" style="width: 75%">
+		</a> 
+      <h3>Bram Donckers</h3>
+      <p>Student HAN Business Informatica Management.</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="JordVanMoorselen.html" id="JordVanMoorselen" onclick="document.location=this.id+'.html';return false;" >
+      <img src="/images/Profielfotos/Jord van Moorsel.jpg" alt="Jord" style="width:90%">
+      </a>
+      <h3>Jord van Moorsel</h3>
+      <p>Studenten HAN Bedrijfskunde.</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="OlivierVanDerSlot" id="OliviervanDerslot" onclick="document.location = '/HTML/' + this.id + '.html'; return false;">
+      <img src="/images/Profielfotos/OliviervanderSlot.jpg" alt="Olivier" style="width:85%">
+      </a>
+	  <h3>Olivier van der Slot</h3>
+      <p>Student HAN Food & Business</p>
+    </div>
+  </div>
+
+   <!-- Verwijziging voor the navbar-->
+  <hr id="Project"> 
+
+
+  <!-- Onderzoek Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Organisatieomschrijving</h3>
+    <p STYLE="text-align: left;"> 
+      Wij geloven dat data gedreven beslissingen zorgen voor lagere kosten, hogere opbrengsten, meer kennis en verminderde bedrijfsrisico’s voor de teler. Het is onze missie om de precisielandbouwcyclus te revolutionaliseren door complexe technologieën zoals big data en kunstmatige intelligentie toegankelijk, begrijpelijk en bruikbaar maken voor onze afnemers. Wij zijn AgroWizard, een internationaal actieve AgTech startup en joint-venture van Limburgse mkb’ers FleurenTech, Genzai en Bluehub.
+    </p><br>
+
+    <h3>Aanleiding</h3>
+    <p STYLE="text-align: left;">
+      De aanleiding voor dit project is de opening in de markt die gevuld moet worden, waarin AgroWizard kansen ziet. Op het moment wordt er op basis van schatting CO2-credit uitgegeven aan boeren, waar zij weer subsidie voor kunnen krijgen. Dit maakt het niet erg betrouwbaar en kan ertoe leiden dat sommige mensen te veel/te weinig subsidie krijgen. AgroWizard wil hier een nauwkeurig systeem voor maken om haar klanten nog beter te helpen. Om dit te kunnen realiseren moeten er echter nog wel een aantal vraagtekens opgelost worden, om deze reden is dit project het leven in geroepen.
+    </p>
+    <br></br>
+    <h3>Opdracht</h3>
+    <p STYLE="text-align: left;"> 
+      De opdracht voor Agrowizard is onderzoek doen naar een nieuwe manier waarop de vastlegging van CO2 in bomen voor boeren kan worden berekend. Aangezien dit een hele nieuwe techniek is, heeft Agrowizard een lijst met te onderzoeken punten opgesteld. Deze delen (data, business, methodologie) zijn in goed overleg geprioriteerd en worden uitgevoerd in de volgorde zoals te zien is in hoofdstuk 7.1 van de planning.
+    </p>
+    <p style="text-align: left;"> 
+     De prioritering omvat de volgende waarden:
+    </p>
+      <ul style="text-align: left; list-style: none;">
+        <li>1: Hoogste prioriteit.</li>
+        <li>2: Middelste prioriteit.</li>
+        <li>3: Laagste prioriteit.</li>
+      </ul>
+      <p style="text-align: left;"> 
+      Uit de prioritering komt voort dat <b>deel 2 - Data</b>, prioriteit 1 heeft. Vervolgens staat <b>deel 1 - Methodologie</b> op prioriteit 2, en als laatste komt <b>deel 3 - Business</b> met prioriteit 3.
+      Binnen elk van deze onderdelen zijn er verschillende bulletpoints die worden geprioriteerd met behulp van de MoSCoW-methode. Elke letter in de MoSCoW-methodiek heeft zijn eigen betekenis:
+    </p>
+      <ul style="text-align: left; list-style: none">
+        <li><b>M</b> - Must haves: Deze eisen moeten absoluut worden vervuld in het eindresultaat, aangezien het product anders niet bruikbaar is.</li>
+        <li><b>S</b> - Should haves: Deze eisen zijn sterk gewenst, maar het product kan nog steeds bruikbaar zijn zonder ze.</li>
+        <li><b>C</b> - Could haves: Deze eisen zullen alleen worden aangepakt als er voldoende tijd beschikbaar is.</li>
+        <li><b>W</b> - Won't haves: Deze eisen zullen in dit project niet worden behandeld, maar kunnen in de toekomst interessant zijn voor een vervolgproject.</li>
+      </ul>
+      <br></br>
+      <b>Deel 1 – Methodologie :</b>
+      <ul style="text-align: left;">
+      <li><b>Must:</b> Onderzoek doen naar de berekeningsmethode van US Forestry Services via Forest Inventory and Analysis National Program.</li>
+      <li><b>Must:</b> Onderzoek doen naar de WUR NBI-7 rekenmethode.</li>
+      <li><b>Must:</b> Onderzoek doen naar ISO-14064-2 berekeningsmethode.</li>
+      <li><b>Won’t:</b> Het interviewen van zowel WUR- als Staatsbosbeheer-expert(s) over dit onderwerp, voornamelijk om alle verschillende methoden te verkennen en de uiteindelijke keuze voor de rekenmethode te onderbouwen.</li>
+      <li><b>Could:</b> Het definitieve besluit nemen over de berekeningsmethode die moet worden gebruikt voor de R&D-activiteiten op de Agrowizard meet-app.</li>
+      </ul>
+      <b>Deel 2 – Data:</b>
+      <ul style="text-align: left;">
+        <li><b>Must:</b> De API’s van US Forestry Services en (potentieel) WUR en anderen te onderzoeken en beoordelen op:</li>
+        <ul style="text-align: left;">
+          <li>Kosten</li>
+          <li>Beschikbaarheid</li>
+          <li>Bereik (data in bestaande databases versus data in API)</li>
+          <li>Algehele continuïteitsbeoordeling</li>
+        </ul>
+        <li><b>Must:</b> Het inventariseren en onderzoeken van verschillende potentiële leveranciers van satellietgegevens over boomhoogte en volume van kroonvariabelen:</li>
+        <ul style="text-align: left;">
+          <li>10 x 10 meter nauwkeurigheid/pricisie van satellietgegevens zijn een randvoorwaarde</li>
+          <li>Beschikbaarheid van gegevens in ieder geval van alle EU-landen, van alle EU-landen</li>
+          <li>De beschikbaarheid van API's is noodzakelijk</li>
+          <li>Kwantitatief inzicht in de kosten van API's is een randvoorwaarde</li>
+        </ul>
+        <li><b>Won’t:</b> Contact op nemen met geselecteerde leveranciers van satellietgegevens voor meer informatie over data, API, etc.</li>
+        <li><b>Could:</b> Gegevens verzamelen over Nederlandse Paulownia/Kiri-bomen dus gegevens over boomsoorten, op locatie in Nederweert voor circa 900 bomen op dit perceel, zijnde de data op steeldikte.</li>
+        <li><b>Should:</b> Het bouwen van een proof-of-concept voor het Nederweert-veld, met behulp van (maar zonder het al te implementeren in) het dataportaal van AgroWizard en het combineren van de gegevens inclusief GPS-locaties voor alle bomen.</li>
+        <li><b>Could:</b> Het definitieve besluit nemen over de leverancier en de API die voor de meetapp moet worden gebruikt.</li>
+        <li><b>Could:</b> Integreren van proof-of-concept in de testomgeving van AgroWizard dataportaal. Lancering van de eindmetingsapp voor klanten via de live-dataportaal van AgroWizard omgeving.</li>
+      </ul>
+      <b>Deel 3 – Business:</b>
+      <ul style="text-align: left;">
+        <li><b>Could:</b> Het inventariseren en onderzoeken van verschillende Nederlandse gebruikers van US Forestry Services en WUR NBI-7 data en/of rekenmethoden.</li>
+        <li><b>Should:</b> Het inventariseren en onderzoeken van verschillende potentiële klanten CO2-meetgegevens van bomen, meer specifiek het verifiëren/certificeren van partijen en/of partijen die geverifieerde gegevens gebruiken om koolstof-credit te produceren. Begin bij bestaande partners van AgroWizard:</li>
+        <ul style="text-align: left;">
+          <li>Dealin.Green</li>
+          <li>Proba</li>
+          <li>BodemWatch</li>
+          <li>Acorn Rabobank</li>
+          <li>Limburgse Land- en Tuinbouw (specifiek hun marktplaats voor CO2-credits)</li>
+        </ul>
+        <li><b>Won't:</b> Adviseren over het businessmodel van de meetapp, prijsstelling en marketingstrategieën.</li>
+      </ul>
+      Niet al deze punten zullen binnen dit project behaald worden, dit is ook in overleg met de opdrachtgever besloten. De projectgroep gaat zoveel mogelijk punten uitwerken, wel uit elk deel wordt minimaal 1 punt uitgewerkt/onderzocht.
+    </p>
+    <br></br>
+    <h3>Doelstelling</h3>
+    <p style="text-align: left;">
+      AgroWizard wil een nieuwe meettechniek van de opslag van CO2 in bomen verder ontwikkelen en naar de markt brengen, hierbij wordt door de projectgroep gedegen onderzoek gedaan naar de mogelijkheden die er zijn en hoe deze gebruikt kunnen worden door AgroWizard. Hierbij wil de projectgroep een sterk adviesrapport opstellen en gaandeweg ook meer leren over het bedrijf, de mogelijkheden en van elkaar.
+    </p>
+
+    <div class="w3-padding-32">
+      <h3><b>Project</b></h3> 
+    <h4><b>Business</b><h4>
+    <P>Voor onze Minor Smart Industry zijn we gaan samenwerken met het bedrijf AgroWizard. In het kader van deze samenwerking hebben wij ons gericht op het verbeteren van de boomscantechnologie van AgroWizard. We hebben ons gericht op het integreren van geavanceerde satelliettechnologie om niet alleen de dikte maar ook de hoogte van bomen te meten. We hebben grondig onderzoek gedaan naar satellietleveranciers die hoogtemetingen van bomen kunnen leveren. We hebben niet alleen gelet op technische specificaties, maar ook op kostenefficiëntie om ervoor te zorgen dat onze oplossingen niet alleen innovatief maar ook praktisch haalbaar zijn voor AgroWizard en haar klanten. Het resultaat van ons werk is een geavanceerde boomscanoplossing die niet alleen helpt bij het monitoren van de dikte van de bomen, maar ook essentiële gegevens levert voor de toekenning van CO2-credits. Als onderdeel van ons Minor-project hebben we ook de kans gegrepen om in gesprek te gaan met een bedrijf in de ecologie. Dit heeft geleid tot waardevolle inzichten en ervaringen die de basis vormen van onze benadering om duurzame landbouwpraktijken te bevorderen.</P>
+    
+    <h4><b>Methodologie & Data</b><h4>
+    <p>
+      Het project voor agrowizard bestaat uit drie onderdelen: business, methodologie en data, waarbij als dat Agrowizard de Co2 in bomen kan berekenen. Hiervoor is het nodig om onderzoek te doen. Bram en Remco hebben gefocust op het onderdeel methodologie en data. De methodologie was voor het projectteam zelf om bekend te worden met de rekenmethodes en deels om een oordeel te maken over welke methode het beste is voor AgroWizard. Er is onderzoek gedaan naar de rekenmethodes door Bram en Remco hier hebben een onderzoek aanpak voor geschreven hierin staat gedetailleerd hoe het onderzoek uitgevoerd ging worden. Hierin hebben Bram en Remco een taakverdeling gemaakt. Hierdoor kwam de verdeling dat Bram zich ging focussen op US-Forestry reken methoden en Remco heeft zich gefocust op het onderzoeken van de rekenmethode van de WUR: NBI-7. Hiervoor zijn de benodigde documenten gelezen.
+      <br></br>
+      De US Forestry biedt geen specifieke API voor directe toegang tot hun data. In plaats daarvan hebben ze een tool ontwikkeld waarin gegevens per boom handmatig worden ingevoerd om de CO2-opslag te berekenen. Deze aanpak is echter onpraktisch voor AgroWizard, dat duizenden bomen moet analyseren. Gelukkig is de rekenmethode vrijgegeven, waardoor automatische berekeningen mogelijk zijn met de juiste gegevens. De methode maakt gebruik van verschillende datapunten, zoals de boomomvang op borsthoogte, kroonhoogte, boomsoortomrekenfactor, droog volume van de boom, en omrekening van koolstof naar CO2. Deze gegevens zullen worden gebruikt voor een 'calculated cell' in de database, waarbij de waarde van de cel wordt bepaald op basis van andere celwaarden volgens de beschreven omrekeningen.
+      <br></br>
+      Om de CO2-opslag in bomen ongeacht de soort te berekenen, werden twee rekenmethodes gebruikt: de WUR (Wageningen University & Research) NBI-7 en de US-Forestry-methode. Omdat Agrowizard een geschikte rekenmethode nodig had, hebben we onderzoek gedaan naar deze methodes. Voordat we dit konden doen, was het echter essentieel om te begrijpen wat deze rekenmethodes inhielden. Remco las de NBI-7, terwijl Bram zich richtte op de US-Forestry, om het werk te verdelen.
+      <br></br>
+      Na evaluatie concludeerden we dat de WUR beter bij Agrowizard paste, omdat de US-Forestry zich alleen op Amerika richtte. De berekeningen van de WUR en US waren identiek, maar de US-methode beschreef de stappen die nodig waren om de CO2 te berekenen. Dit brachten we over naar het onderdeel data, waarbij de uitdaging was om de data van de US of WUR te koppelen aan de bestaande data van Agrowizard.
+      <br></br>
+      Tijdens dit onderdeel ontdekten we dat enkele essentiële variabelen ontbraken (dichtheid en hoogte). We deden vervolgens onderzoek, waarbij ik me concentreerde op de dichtheid van een Paulownia boom. Na het constateren van een gebrek aan Nederlands onderzoek over Paulownia dichtheid, vonden we twee wetenschappelijke artikelen die ondersteunende informatie boden, waardoor we concludeerden dat de vaste dichtheid van de Paulownia boom 272 is. Dit gaat nog in Nederland onderzocht worden door de WUR, om een uiteindelijk getal vast te stellen. Voor dit project was het goed genoeg om van deze dichtheid uit te gaan, totdat het uiteindelijk wetenschappelijk vastgelegde getal bekend is.
+      <br></br>
+      Aangezien er nog geen satelliet data leverancier was om de boomhoogte te verkrijgen, hebben Bram en ik een dataset gemaakt met dummy data. We combineerden de dummy data met de data van Agrowizard tot drie verschillende datasets. Terwijl Bram hiermee bezig was, heeft Remco de dataset geladen en een functioneel dashboard gecreëerd.
+    </p>
+
+    <h4> Druk op Agrowizard voor de restulaten:</h4>
+    <a href="Bestanden/Oplevering.zip" download>
+      <img src="/Foto's werkstukken/Agrowizard.png" alt="Agrowizard" width="200" height="142">
+  </a>
+  </div>
+
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+    <a href="https://www.agrowizard.com/"> <p>Agrowizard</p> </a>
+      <p>Gemaakt door Project Agrowizard <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
+    </div>
+ 
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
